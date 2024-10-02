@@ -1,0 +1,170 @@
+.topBar {
+    width: 100%;
+    background: #fbfaf8;
+    border-bottom: 1px solid #eae6e2;
+    height: 35px;
+    line-height: 35px
+}
+
+.box_center {
+    width: 1020px;
+    margin: 0 auto
+}
+
+.top_l {
+    float: left
+}
+
+.top_r {
+    float: right
+}
+
+.topBar .line {
+    display: inline-block;
+    padding: 0 12px;
+    color: #e5d9da
+}
+
+.topBar a {
+    display: inline-block;
+    color: #8C8C8C
+}
+
+.topBar a.on {
+    color: #333
+}
+
+
+/* Header */
+
+.header {
+    min-width: 1020px;
+}
+
+.topMain {
+    height: 92px;
+    background: #fff;
+    overflow: hidden;
+
+    .box_center {
+        width: 1020px;
+        margin: 0 auto;
+
+        .logo {
+            width: 198px;
+            float: left;
+            padding: 23px 130px 0 0;
+            display: block;
+
+            img {
+                width: auto;
+                height: 48px;
+            }
+        }
+
+        .searchBar {
+            width: 342px;
+            margin-top: 27px;
+            overflow: hidden;
+
+            .search {
+                width: 342px;
+                overflow: hidden;
+
+                .s_int {
+                    width: 250px;
+                    padding: 0 14px 0 18px;
+                    height: 36px;
+                    line-height: 36px\9;
+                    vertical-align: middle;
+                    border: 1px solid #f80;
+                    border-right: none;
+                    color: #333;
+                    float: left;
+                    border-radius: 20px 0 0 20px;
+                    font-size: 14px;
+                    background: 0 0
+                }
+
+                .search_btn {
+                    float: left;
+                    width: 58px;
+                    height: 38px;
+                    text-align: center;
+                    border-radius: 0 20px 20px 0;
+                    background-color: #f80;
+                    cursor: pointer;
+
+                    .icon {
+                        width: 18px;
+                        height: 18px;
+                        display: block;
+                        margin: 9px auto 0;
+                        background: url(../images/search.png) no-repeat;
+                        background-size: cover;
+                        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/search.png', sizingMethod='scale');
+                    }
+                }
+            }
+        }
+
+        .bookShelf {
+            margin-top: 27px;
+            padding-left: 20px;
+            overflow: hidden;
+
+            .user_link {
+                height: 38px;
+                line-height: 38px;
+                padding-left: 20px;
+                font-size: 15px;
+                color: #404040;
+                float: right;
+
+                .mr15 {
+                    color: #404040;
+                    text-decoration: none;
+                    float: right;
+                    height: 38px;
+                    line-height: 38px;
+                    padding-left: 20px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+.mainNav {
+    width: 100%;
+    height: 48px;
+    background: #f80;
+    margin-bottom: 20px;
+
+    .box_center {
+        width: 1020px;
+        margin: 0 auto;
+
+        .nav {
+            li {
+                float: left;
+
+                a {
+                    float: left;
+                    height: 44px;
+                    line-height: 48px;
+                    color: #fff;
+                    font-size: 16px;
+                    margin: 0 34px;
+                    border-bottom: 2px solid #f80;
+                    transition: color .3s, background-color .3s, border .3s;
+
+                    &:hover {
+                        border-bottom: 2px solid rgba(255, 255, 255, .8);
+                    }
+                }
+            
+            }
+        }
+    }
+}
